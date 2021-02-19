@@ -1,8 +1,10 @@
 {
     "name": "management",
     "version": "1.0.0",
+    "private": true,
     "scripts": {
-        "clinet": "cd client && yarn start",
+        "cl":"cd client",
+        "client": "cd client && yarn start",
         "server": "nodemon server.js",
         "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
     },
@@ -12,6 +14,6 @@
         "nodemon": "^2.0.7"
     },
     "devDependencies": {
-        "concurrently": "^4.0.1"
+        "concurrently": "^4.1.2"
     }
 }
