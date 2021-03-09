@@ -17,7 +17,7 @@ app.get('/api/customers',(req,res)=>{
     {
     'id':1,
     'img': 'https://placeimg.com/64/64/2',
-    'name':'김민준',
+    'name':'김민준3',
     'birthday':'970808',
     'gender':'남자',
     'job':'대학생',
@@ -32,4 +32,4 @@ app.get('/api/customers',(req,res)=>{
   }
   ]) ;
 })
-app.listen(port,()=>console.log(`hihi ${port}`));
+app.listen(port,()=>console.log(`서버 온 ${port}`));
