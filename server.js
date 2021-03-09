@@ -25,7 +25,7 @@ app.get('/api/customers',(req,res)=>{
   {
     'id':2,
     'img': 'https://placeimg.com/64/64/5',
-    'name':'이승현',
+    'name':'이승현2',
     'birthday':'990808',
     'gender':'여자',
     'job':'고등학생',
