@@ -5,6 +5,7 @@ const clientId = "717096392722-0ukrc6ofn0fuue61ol1ounln68ktvfc4.apps.googleuserc
 
 export default function GoogleButton({ onSocial }){
     const onSuccess = async(response) => {
+
         
     	console.log(response);
     
