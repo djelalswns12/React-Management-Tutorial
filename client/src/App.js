@@ -2,6 +2,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Customer from './components/Customer';
+import Mygoogle from './components/GoogleButton';
 import { Component } from 'react';
 
 

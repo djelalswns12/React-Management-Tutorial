@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import GoogleButton from './components/GoogleButton';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <GoogleButton />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -4,9 +4,11 @@
     "private": true,
     "scripts": {
         "cl":"cd client",
-        "client": "cd client && yarn start",
+        "liclient": "cd client && yarn listart",
+        "winclient": "cd client && yarn winstart",
         "server": "nodemon server.js",
-        "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+        "lidev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn liclient\"",
+        "windev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn winclient\""
     },
     "dependencies": {
         "body-parser": "^1.19.0",
