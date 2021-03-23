@@ -21,7 +21,7 @@ function GoogleButton(props){
         <div>
             {isLogin[1]}
             <GoogleLogin
-                buttonText="구글 로그인"
+                buttonText="구글 로그인!"
                 clientId={clientId}
                 responseType={"id_token"}
                 onSuccess={onSuccess}
