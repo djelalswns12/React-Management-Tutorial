@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "cl":"cd client",
+        "cl": "cd client",
         "liclient": "cd client && yarn listart",
         "winclient": "cd client && yarn winstart",
         "server": "nodemon server.js",
@@ -13,7 +13,9 @@
     "dependencies": {
         "body-parser": "^1.19.0",
         "express": "^4.17.1",
-        "nodemon": "^2.0.7"
+        "nodemon": "^2.0.7",
+        "react-google-login": "^5.2.2",
+        "react-router-dom": "^5.2.0"
     },
     "devDependencies": {
         "concurrently": "^4.1.2"

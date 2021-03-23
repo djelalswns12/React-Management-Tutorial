@@ -1,10 +1,9 @@
 
-import logo from './logo.svg';
 import './App.css';
 import Customer from './components/Customer';
-import Mygoogle from './components/GoogleButton';
 import { Component } from 'react';
-
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import {Login,Main, About, User } from './pages';
 
 class App extends Component {
   state={
@@ -23,8 +22,15 @@ class App extends Component {
   }
   render(){
     return (
+    <Router>
+        <Route exact path='/' component={Login}/>
+        <Route path='/about' component={About}/>
+        <Route path="/user" component={User} />
+        <Route path='/main' component={Main}/>
+    </Router>
+      /*
       this.state.customers ? this.state.customers.map(c=>{
-        return(<Customer id={c.id} name={c.name} img={c.img} />) }) : ""
+        return(<Customer id={c.id} name={c.name} img={c.img} />) }) : ""*/
       );
   }
     

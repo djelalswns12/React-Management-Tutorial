@@ -2,13 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import logo from './img/logo.png';
 import reportWebVitals from './reportWebVitals';
 import GoogleButton from './components/GoogleButton';
 
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import {Login,Home, About, User } from './pages';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <GoogleButton />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
